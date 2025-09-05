@@ -1,15 +1,17 @@
-streamlit
-yfinance
-pandas
-numpy
-plotly
-prophet
-tensorflow
-scikit-learn
-transformers
-torch
-nltk
-matplotlib
-seaborn
-reportlab
-openpyxl
+streamlit>=1.38
+yfinance>=0.2.43
+plotly>=5.22
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+streamlit-searchbox>=0.1.5
+requests>=2.32
+openpyxl>=3.1.0
+prophet>=1.1 ; sys_platform != 'win32'
+pystan<3 ; sys_platform != 'win32'
+transformers>=4.41
+torch>=2.1
+vaderSentiment>=3.3.2
+reportlab>=4.1
+xlsxwriter>=3.0
+kaleido>=0.2
