@@ -1,0 +1,15 @@
+streamlit
+yfinance
+pandas
+numpy
+plotly
+prophet
+tensorflow
+scikit-learn
+transformers
+torch
+nltk
+matplotlib
+seaborn
+reportlab
+openpyxl
